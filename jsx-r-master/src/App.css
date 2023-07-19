@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+img{
+  border-radius: 50%;
+  width: 300px;
+}
+body{
+  background-color: rgb(200, 141, 192);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.container{
+  border: 1px solid rgb(164, 121, 138);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width:50%;
+  margin: auto;
+  margin-top: 10%;
+  background-color: rgb(222, 103, 206) ;
+  box-shadow: 3px 3px  rgba(235, 175, 235, 0.605);
+  border-radius: 5px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px 0px 0px, rgba(240, 46, 170, 0.3) 10px 10px 0px 0px, rgba(240, 46, 170, 0.2) 15px 15px 0px 0px, rgba(240, 46, 170, 0.1)
+}
